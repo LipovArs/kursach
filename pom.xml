@@ -25,7 +25,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -36,18 +35,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency >
-			<groupId> org.aspectj </groupId>
-			<artifactId>aspectjrt </artifactId>
-			<version>1.9.4 </version>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.9.4</version>
 		</dependency>
 		<dependency >
-			<groupId> org.aspectj </groupId>
-			<artifactId> aspectjweaver </artifactId>
-			<version> 1.9.4 </version>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.9.4</version>
 		</dependency >
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -55,6 +53,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>kursach</finalName>
 	</build>
 
 </project>
